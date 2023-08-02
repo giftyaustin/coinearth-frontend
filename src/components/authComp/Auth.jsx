@@ -23,7 +23,7 @@ const history = useNavigate()
 
   return (
     <div className="Auth">
-<p>Initial loading might take some time to fucntion because of <a href="https://render.com/docs/free" target="_blank" rel="noopener noreferrer">Render.com</a>   free tier policies</p>
+<p>Initial loading might take some time to function because of <a href="https://render.com/docs/free" target="_blank" rel="noopener noreferrer">Render.com</a>   free tier policies</p>
 {login ? <h1>Login</h1>:<h1>Register</h1>}
 
       {login === true ? (
