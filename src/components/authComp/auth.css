@@ -1,0 +1,41 @@
+.Auth{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Auth input{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left:10px;
+}
+
+.Auth label{
+    margin-bottom: 10px;
+}
+
+.Auth button{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+.Dashboard-btn{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}

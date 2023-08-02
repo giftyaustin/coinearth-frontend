@@ -2,7 +2,7 @@ import React, { useState , useEffect} from 'react'
 import { handleInputChange } from '../../utils/handleInputChange'
 import { sendGETRequest, sendPutRequest } from '../../utils/sendRequest'
 import { useNavigate } from 'react-router-dom'
-
+import './dashboard.css'
 const Dashboard = () => {
 const history = useNavigate('')
 let user = JSON.parse(sessionStorage.getItem('user')) || ''
@@ -62,7 +62,7 @@ const getUser = async()=>{
 
 
   return (
-    <div>
+    <div className='Dashboard'>
       <p>email : {user.email}</p>
 
 <p>To update password, enter current password and create new password</p>

@@ -1,0 +1,26 @@
+.Dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Dashboard input{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left:10px;
+}
+
+.Dashboard button{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}

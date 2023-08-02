@@ -249,7 +249,7 @@ const Body = () => {
         onClick={() => {
           history("/accounts/dashboard");
         }}
-      >
+      className="Dashboard-btn">
         Dashboard
       </button>
 

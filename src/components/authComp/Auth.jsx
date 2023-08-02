@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { loginUser, registerUser } from "../../controllers/userController";
 import { handleInputChange } from "../../utils/handleInputChange";
 import { useNavigate } from "react-router-dom";
+import  './auth.css'
 
 const Auth = () => {
 
@@ -21,7 +22,10 @@ const history = useNavigate()
 
 
   return (
-    <div>
+    <div className="Auth">
+
+{login ? <h1>Login</h1>:<h1>Register</h1>}
+
       {login === true ? (
         <>
           {/* login */}
